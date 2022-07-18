@@ -4,6 +4,42 @@
 body {
   background-color: #f3f1ff;
   font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+nav {
+  background-color: #562eff;
+  margin-bottom: 70px;
+}
+.navigation-bar {
+  width: 63%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title {
+  padding: 10px;
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-title h3 {
+  color: #ffffff;
+}
+.logo-title img {
+  width: 40px;
+  height: 50px;
+}
+.navigation-menu {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation-menu a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .container {
   width: 60%;
@@ -130,6 +166,13 @@ lates course style
 /* media quary for mobile screen */
 
 @media (max-width: 688px) {
+  .navigation-bar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
   .container {
     width: 100%;
     margin: auto;
